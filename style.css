@@ -1,0 +1,222 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+
+    padding: 30px 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+
+
+
+
+.niga {
+    margin: 0 auto;
+    width: 350px;
+    height: 250px;
+    background-color: black;
+}
+
+.hello {
+    padding: 20px;
+    text-align: center;
+    background-color: grey;
+}
+
+/* style.css */
+
+.box-container{
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+   
+  
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.age {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    color: #999;
+}
+
+.age span:last-child {
+    color: #333;
+    font-weight: 500;
+}
+
+
+input {
+    width: 50px;
+    border: none;
+    background-color: #f1f1f1;
+}
+
+
+
+/* style.css */
+
+  
+  .product-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+   
+    background-color: #f9f9f9;
+    gap: 40px;
+  }
+  
+  .product-card {
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+  
+  }
+  
+  .product-card h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 18px;
+    color: #007bff;
+    font-weight: 700;
+  }
+
+
+  /* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .uzum-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Выравнивание по верхнему краю */
+    flex-wrap: wrap; /* Перенос строк, если карточек много */
+    gap: 20px; /* Расстояние между карточками */
+    min-height: 60vh;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.product-uzum {
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Равномерное распределение внутри карточки */
+}
+
+.main-image {
+    width: 100%;
+    height: 300px; /* Устанавливаем фиксированную высоту */
+    border-radius: 10px;
+    margin-bottom: 10px;
+    object-fit: cover; /* Изображение заполняет всю высоту и ширину */
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.rating {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.monthly-price {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffc107;
+    margin-bottom: 8px;
+}
+
+.price-uzum {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.old-price {
+    font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wishlist-button,
+.cart-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #666;
+}
+
+.wishlist-button:hover,
+.cart-button:hover {
+    color: #000;
+}
